@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { basePath } from "../../next.config.mjs";
+import basePath from "../../next.config.mjs";
 const BASE_PATH = basePath ? basePath : "";
 
 export default function Home() {

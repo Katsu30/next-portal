@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: "/next-portal",
+  basePath: process.env.NODE_ENV === "production" ? "/next-portal" : "",
 };
 
 export default nextConfig;
